@@ -1,4 +1,217 @@
-h1,h2,h3,h4,h5,h6{
+body { background-image: url("../img/fondo.jpg") }
+nav {
+    width: 966PX;
+    display:flex;
+    
+    min-height: 20;
+}
+
+.block-center{
+    margin: 0 auto;
+}
+
+.container{
+    width: 980px;    
+}
+
+#titulos h1{font-size: 2.9em}
+
+
+/* Bloque de encabezado inicio */
+
+#encabezado{
+    color: white;
+    background-color: black;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#encabezado figure{
+    margin: 0;
+    background-color:black;
+    
+}
+
+#encabezado #titulos *{
     margin: 0;
     padding: 0;
+    border: 10px;
 }
+
+
+#nota-principal{
+     margin: auto;
+    padding: 0;
+    height: 320px;
+    width: 960px;
+    background-color: lightgreen;
+    border: 10px solid;
+    border-color:white;
+    box-shadow: 0 0 10px grey;
+    margin-bottom: 15px;
+}
+/*Nota secundaria*/
+#nota-secundaria article{
+     display: flex;
+     background-image: url('../Imagenes/sombra.png');
+     background-repeat: no-repeat;
+     background-position: bottom;
+     padding-bottom: 40px;
+     margin-bottom: 30px;
+}
+#nota-secundarias figure{
+    position: relative;
+}
+#nota-secundaria figure span{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    padding: 5px 20px;
+    background-color: lightgrey;
+    box-shadow: 1px 1px 3px darkgrey;
+}
+#nota-secundaria article div{
+    padding-left: 10px;
+}
+#nota-secundaria article div p {
+    text-align: justify;
+    line-height: 0.8em;
+}
+#nota-secundaria article h2{
+    font-variant: small-caps;
+    line-height: 0.7em;
+}
+#nota-secundaria a{
+    color: #b92025;
+    text-decoration: none;
+    font-size: 1.1em
+}
+#nota-secundaria a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#nota-secundaria {
+    background: url("../img/fondo2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    color: white;
+    width: 980px;
+    min-height: 260px;
+}
+
+
+#pie{
+    min-height: height: 150px;
+}
+
+.sombra-imagen{
+    box-shadow: 0 0 5px darkgray;
+    margin-bottom: 10px;
+}
+
+.ver-mas p{
+    color: white;
+    font-weight: bold;
+}
+.div-class{
+    background: #b92025;
+    display: inline-block;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding: 3px;
+    box-shadow: 0px 1px 3px darkgray;
+    
+}
+
+.div-class > div{
+    padding: 1px 3px;
+    border: 1px solid rgba(255,255,255,.7)
+    }
+
+.div-class p{
+    color: white;
+    padding: 0 !important;
+    font-variant: small-caps;
+    font-size: 1.1em;
+    
+}
+
+figure{
+    margin: 0;
+    position: relative;
+}
+
+.nota-secundaria{
+   display: flex; 
+   justify-content:space-around;
+}
+
+#programas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#politicas {
+    border-bottom: 3px double lightgray;
+    border-top: 3px double lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+.separador-sems {
+    padding: 5px 0;
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+
+.separador-sems a::before, .separador-sems a::after{
+    content:"";
+    border-top: 3px double lightgray;
+    width: 38%;
+    position: absolute;
+    top: 35px;
+}
+
+.separador-sems a::after{
+  right:0;
+}
+
+.separador-sems a::before{
+  left: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flexible {
+    display: flex;
+}
+
+
+header h1,h2,h3,h4,h5,p, ul,li    lifigure{
+    padding: 0px;
+    margin: 0px;
+}
+    #notas .nota h2 {
+    text-align: justify;
+    color: #515151;
+    padding-top: 5px;
+    line-height: 1.2em;
+        font-size: 1.8em
+}
+
+
+    
+
